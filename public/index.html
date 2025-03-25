@@ -40,6 +40,22 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <!--===============================================================================================-->
+
+    <style>
+
+.sub-menu {
+
+  z-index: 1000 !important; /* Ensure it appears above other elements */
+
+}
+.menu-item-has-children {
+  position: relative;
+  z-index: 10;
+}
+
+
+
+    </style>
   </head>
   <body class="responsive home-1">
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -169,6 +185,37 @@
                     <li>
                       <a href="/all-videos"> Videos </a>
                     </li>
+                    <li class="menu-item-has-children">
+                      <a href="index-2.html">
+                        Resources
+                      </a>
+    
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="index-2.html">
+                            Home 1
+                          </a>
+                        </li>
+    
+                        <li>
+                          <a href="home2.html">
+                            Home 2
+                          </a>
+                        </li>
+    
+                        <li>
+                          <a href="director.html">
+                            Director
+                          </a>
+                        </li>
+    
+                        <li>
+                          <a href="beauty-vlogger.html">
+                            Beauty Vlogger
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
                     <li>
                       <a href="/blog"> Blog </a>
                     </li>
@@ -178,10 +225,11 @@
                     <li>
                       <a href="/contact"> Contact </a>
                     </li>
+                    <li>
+                      <a href="/donate"> Donate </a>
+                    </li>
 
-                        <li>
-                          <a href="/submit-video"> Submit Video </a>
-                        </li>
+                    
                       </ul>
                     </li>
 
@@ -193,7 +241,7 @@
                   <div class="bp-element bp-element-button">
                     <a href="/submit-video" class="btn">
                       <i class="ion ion-upload"></i>
-                      SUBMIT VIDEO
+                      SUBMIT TESTIMONIES
                     </a>
                   </div>
 
@@ -480,9 +528,12 @@
             <li>
               <a href="/contact"> Contact </a>
             </li>
+            <li>
+              <a href="/donate"> Donate </a>
+            </li>
 
                 <li>
-                  <a href="/submit-video"> Submit Video </a>
+                  <a href="/submit-video"> Submit Testimonies </a>
                 </li>
               </ul>
           
@@ -517,6 +568,9 @@
 
                   <li class="menu-item">
                     <a href="contact.html">CONTACT US</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="/donate">DONATE</a>
                   </li>
                 </ul>
               </div>
