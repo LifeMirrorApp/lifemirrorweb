@@ -23,6 +23,8 @@ import img from "./build.png";
 import PopularVideo from "./PopularVideo";
 import Trending from "./Trending";
 const Home = () => {
+  const [showVideo, setShowVideo] = useState(false);
+
   return (
     <>
       <body class="responsive home-1">
@@ -39,19 +41,56 @@ const Home = () => {
                   <div class="wrap-element">
                     <div class="feature-item">
                       <div class="row">
-                        <div class="col-lg-9">
-                          <div class="video">
-                            <img
-                              src="assets/images/bg-featurepost-01.jpg"
-                              alt="IMG"
-                            />
+                        <div className="col-lg-9">
+                          <div
+                            className="video"
+                            style={{ position: "relative" }}
+                          >
+                            {showVideo ? (
+                              // Show the iframe when play button is clicked
+                              <iframe
+                                width="100%"
+                                height="400"
+                                src="https://www.youtube.com/embed/hNQFjqDvPhA?autoplay=1"
+                                title="YouTube video"
+                                frameBorder="0"
+                                allowFullScreen
+                              ></iframe>
+                            ) : (
+                              <>
+                                {/* Featured image */}
+                                <img
+                                  src="assets/images/bg-featurepost-01.jpg"
+                                  alt="IMG"
+                                  style={{ width: "100%" }}
+                                />
+                                <div className="overlay"></div>
 
-                            <div class="overlay"></div>
-
-                            <a
-                              href="https://www.youtube.com/watch?v=hNQFjqDvPhA&amp;feature=youtu.be"
-                              class="btn-play popup-youtube"
-                            ></a>
+                                {/* Play button */}
+                                <button
+                                  onClick={() => setShowVideo(true)}
+                                  className="btn-play popup-youtube"
+                                  style={{
+                                    position: "absolute",
+                                    top: "50%",
+                                    left: "50%",
+                                    transform: "translate(-50%, -50%)",
+                                    backgroundColor: "white",
+                                    borderRadius: "50%",
+                                    width: "60px",
+                                    height: "60px",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    textDecoration: "none",
+                                    border: "none",
+                                    cursor: "pointer",
+                                  }}
+                                >
+                                  ▶
+                                </button>
+                              </>
+                            )}
                           </div>
                         </div>
 
