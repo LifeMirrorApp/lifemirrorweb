@@ -30,7 +30,7 @@ const Home = () => {
           <div id="main-content" style={{ background: "#1e1e1e" }}>
             <div
               class="thim-banner_home-1"
-              style={{ backgroundImage: "url(assets/images/bg-01.jpg)" }}
+              style={{ backgroundImage: "url(assets/images/bg-01.jpeg)" }}
             >
               <div class="overlay-area"></div>
 
@@ -66,23 +66,46 @@ const Home = () => {
                           <div class="text">
                             <h4 class="title">
                               <a href="single-video.html">
-                                MTV Game Awards GraphicPackage The Best Of year
-                                2018
+                                Try Our NEW Everyday Discipleship App!
                               </a>
                             </h4>
 
-                            <div class="info">
-                              <span class="item-info">
-                                BY <a href="javascript:;">POLLY</a>
-                              </span>
-                              <span class="item-info">MAY 1, 2018</span>
-                              <span class="item-info">TV show</span>
-                            </div>
-
                             <div class="description">
-                              S1 E2 Escorpión/DzecThe one Mayans seek answers
-                              from a local crew as the Galindo you worlds north
-                              and south of the border oldcollide.
+                              <p> Discipleship just got a whole lot easier. </p>
+                              <br></br>
+                              <p> You’ll enjoy features like: </p>
+                              <br></br>
+                              <ul
+                                style={{
+                                  listStyleType: "disc",
+                                  paddingLeft: "20px",
+                                }}
+                              >
+                                <li
+                                  style={{
+                                    listStyleType: "disc",
+                                  }}
+                                >
+                                  A personalized journey highlighting your next
+                                  step of spiritual growth
+                                </li>
+                                <li
+                                  style={{
+                                    listStyleType: "disc",
+                                  }}
+                                >
+                                  Easy access to an ever-growing digital library
+                                  of free discipleship resources
+                                </li>
+                                <li
+                                  style={{
+                                    listStyleType: "disc",
+                                  }}
+                                >
+                                  A platform to connect with and encourage other
+                                  disciplemakers
+                                </li>
+                              </ul>
                             </div>
 
                             <a
@@ -112,11 +135,11 @@ const Home = () => {
                                 />
                               </a>
 
-                              <div class="label">HD</div>
+                              <div class="label">Free</div>
                             </div>
 
                             <h4 class="title">
-                              <a href="single-video.html">Self-Hosted Video</a>
+                              <a href="single-video.html">Bible Study</a>
                             </h4>
 
                             <div class="info">FEBRUARY 10, 2018</div>
@@ -133,11 +156,11 @@ const Home = () => {
                                 />
                               </a>
 
-                              <div class="label">CAM</div>
+                              <div class="label">Paid</div>
                             </div>
 
                             <h4 class="title">
-                              <a href="single-video.html">Self-Hosted Video</a>
+                              <a href="single-video.html">Discipleship</a>
                             </h4>
 
                             <div class="info">FEBRUARY 10, 2018</div>
@@ -154,11 +177,11 @@ const Home = () => {
                                 />
                               </a>
 
-                              <div class="label">Trailer</div>
+                              <div class="label">Free</div>
                             </div>
 
                             <h4 class="title">
-                              <a href="single-video.html">Self-Hosted Video</a>
+                              <a href="single-video.html">Evangelism</a>
                             </h4>
 
                             <div class="info">FEBRUARY 10, 2018</div>
@@ -175,11 +198,11 @@ const Home = () => {
                                 />
                               </a>
 
-                              <div class="label">HD</div>
+                              <div class="label">Free</div>
                             </div>
 
                             <h4 class="title">
-                              <a href="single-video.html">Self-Hosted Video</a>
+                              <a href="single-video.html">Prayer</a>
                             </h4>
 
                             <div class="info">FEBRUARY 10, 2018</div>
@@ -204,11 +227,11 @@ const Home = () => {
 
                     <a href="javascript:;" class="content">
                       <div class="text">
-                        GAME SHOW Art line Collection Handmade
+                        Partner with us to share the goodnews of Jesus
                       </div>
 
                       <div class="btn-readmore btn-small shape-round">
-                        read more
+                        Donate Now
                       </div>
                     </a>
                   </div>

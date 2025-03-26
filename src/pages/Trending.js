@@ -4,30 +4,35 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const trendingCategories = [
-  { id: 1, title: "Game", movies: 250, imgSrc: "assets/images/post-05.jpg" },
+  {
+    id: 1,
+    title: "Mr Philip",
+    movies: 2,
+    imgSrc: "assets/images/post-05.jpg",
+  },
   {
     id: 2,
-    title: "Animation",
-    movies: 380,
+    title: "Mrs Dorcas",
+    movies: 3,
     imgSrc: "assets/images/post-06.jpg",
   },
   {
     id: 3,
-    title: "Life Style",
-    movies: 180,
+    title: "Mrs Mary",
+    movies: 1,
     imgSrc: "assets/images/post-07.jpg",
   },
-  { id: 4, title: "Game", movies: 250, imgSrc: "assets/images/post-05.jpg" },
+  { id: 4, title: "Mr John", movies: 250, imgSrc: "assets/images/post-05.jpg" },
   {
     id: 5,
-    title: "Animation",
-    movies: 380,
+    title: "Mr Isaac",
+    movies: 2,
     imgSrc: "assets/images/post-06.jpg",
   },
   {
     id: 6,
-    title: "Life Style",
-    movies: 180,
+    title: "Mr George",
+    movies: 1,
     imgSrc: "assets/images/post-07.jpg",
   },
 ];
@@ -54,9 +59,9 @@ const Trending = () => {
           <div className="wrap-element">
             <div className="heading-post">
               <div className="text">
-                <h3 className="title">TRENDING CATEGORIES</h3>
+                <h3 className="title">TESTIMONIALS</h3>
                 <div className="description">
-                  It is a long established fact that a reader
+                  Some of the testimonies of the Disciple
                 </div>
               </div>
             </div>
@@ -69,7 +74,7 @@ const Trending = () => {
                     <div className="overlay"></div>
                     <a href="blog.html" className="content">
                       <span className="title">{category.title}</span>{" "}
-                      {category.movies} Movies
+                      {category.movies} Testimony(ies)
                     </a>
                   </div>
                 </div>

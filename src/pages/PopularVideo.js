@@ -24,8 +24,12 @@ const PopularVideo = () => {
         <div className="bp-element bp-element-st-list-videos vblog-layout-slider-1">
           <div className="wrap-element">
             <div className="heading-post">
-              <h3 className="title">Popular Videos</h3>
-              <a href="/list-videos" className="link">
+              <h3 className="title">Our Resources</h3>
+              <a
+                href="/list-videos"
+                className="link"
+                style={{ color: "white" }}
+              >
                 See all news
               </a>
             </div>
@@ -39,7 +43,7 @@ const PopularVideo = () => {
                         <div className="overlay"></div>
                         <div className="meta-info">
                           <div className="imdb">
-                            <span className="value">{video.imdb}</span> IMDb
+                            <span className="value">{video.category}</span>
                           </div>
                           <div
                             className="label"
@@ -49,7 +53,7 @@ const PopularVideo = () => {
                           </div>
                         </div>
                         <a
-                          href={video.link}
+                          href={video.videoUrl}
                           className="btn-play popup-youtube"
                         ></a>
                       </div>
