@@ -41,7 +41,39 @@ const Home = () => {
                   <div class="wrap-element">
                     <div class="feature-item">
                       <div class="row">
-                        <div className="col-lg-9">
+                        <div className="col-lg-12">
+                          <div
+                            style={{
+                              margin: "auto",
+                              textAlign: "center",
+                              marginBottom: "15px",
+                            }}
+                          >
+                            <div class="text">
+                              <h4 class="title">
+                                <a href="single-video.html">
+                                  Experience Joy, Peace and Power in
+                                  Transfornation
+                                </a>
+                              </h4>
+
+                              <div class="description">
+                                <p>
+                                  {" "}
+                                  Life Mirror is here to support you and guide
+                                  your daily transformation to be spiritually
+                                  empowered in Christ
+                                </p>
+                              </div>
+
+                              <a
+                                href="single-video.html"
+                                class="btn-readmore btn-normal shape-round"
+                              >
+                                Start your Journey
+                              </a>
+                            </div>
+                          </div>
                           <div
                             className="video"
                             style={{ position: "relative" }}
@@ -91,61 +123,6 @@ const Home = () => {
                                 </button>
                               </>
                             )}
-                          </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                          <div class="text">
-                            <h4 class="title">
-                              <a href="single-video.html">
-                                Try Our NEW Life Mirror Discipleship App!
-                              </a>
-                            </h4>
-
-                            <div class="description">
-                              <p> Discipleship just got a whole lot easier. </p>
-                              <br></br>
-                              <p> You’ll enjoy features like: </p>
-                              <br></br>
-                              <ul
-                                style={{
-                                  listStyleType: "disc",
-                                  paddingLeft: "20px",
-                                }}
-                              >
-                                <li
-                                  style={{
-                                    listStyleType: "disc",
-                                  }}
-                                >
-                                  A personalized journey highlighting your next
-                                  step of spiritual growth
-                                </li>
-                                <li
-                                  style={{
-                                    listStyleType: "disc",
-                                  }}
-                                >
-                                  Easy access to an ever-growing digital library
-                                  of free discipleship resources
-                                </li>
-                                <li
-                                  style={{
-                                    listStyleType: "disc",
-                                  }}
-                                >
-                                  A platform to connect with and encourage other
-                                  disciplemakers
-                                </li>
-                              </ul>
-                            </div>
-
-                            <a
-                              href="single-video.html"
-                              class="btn-readmore btn-normal shape-round"
-                            >
-                              read more
-                            </a>
                           </div>
                         </div>
                       </div>
