@@ -11300,7 +11300,7 @@ form#lostpasswordform .description {
 
 @media (max-width: 767px) {
   .responsive .site-header.layout-1 .header-container {
-    background: #111111;
+    background-color: #ffd700;
   }
 
   .responsive .site-header.layout-1 .header-container .top-header {
