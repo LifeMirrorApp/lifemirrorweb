@@ -9335,7 +9335,7 @@ form#lostpasswordform .description {
   width: 100%;
   height: 44px;
   border-radius: 22px;
-  background-color: black;
+  background-color: #212529;
   display: flex;
   align-items: center;
   position: relative;
