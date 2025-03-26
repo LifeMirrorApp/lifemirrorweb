@@ -1361,7 +1361,7 @@ html {
 .bp-element-social-links.vblog-layout-header-1 .wrap-element .social-item {
   font-size: 16px;
   line-height: 1;
-  color: #757575;
+  color: #fff;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -9335,7 +9335,7 @@ form#lostpasswordform .description {
   width: 100%;
   height: 44px;
   border-radius: 22px;
-  background: rgba(37, 37, 37, 0.85);
+  background-color: black;
   display: flex;
   align-items: center;
   position: relative;
