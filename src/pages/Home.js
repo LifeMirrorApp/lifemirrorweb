@@ -129,100 +129,32 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-
-                <div class="bp-element bp-element-st-list-videos vblog-layout-1-1">
-                  <div class="wrap-element">
-                    <div class="normal-items">
-                      <div class="row">
-                        <div class="col-sm-6 col-lg-3">
-                          <div class="item">
-                            <div class="pic">
-                              <a href="single-video.html">
-                                <img
-                                  src="assets/images/png-bg-post-01.png"
-                                  alt="IMG"
-                                />
-                              </a>
-
-                              <div class="label">Free</div>
-                            </div>
-
-                            <h4 class="title">
-                              <a href="single-video.html">Bible Study</a>
-                            </h4>
-
-                            <div class="info">FEBRUARY 10, 2018</div>
-                          </div>
-                        </div>
-
-                        <div class="col-sm-6 col-lg-3">
-                          <div class="item">
-                            <div class="pic">
-                              <a href="single-video.html">
-                                <img
-                                  src="assets/images/png-bg-post-02.png"
-                                  alt="IMG"
-                                />
-                              </a>
-
-                              <div class="label">Paid</div>
-                            </div>
-
-                            <h4 class="title">
-                              <a href="single-video.html">Discipleship</a>
-                            </h4>
-
-                            <div class="info">FEBRUARY 10, 2018</div>
-                          </div>
-                        </div>
-
-                        <div class="col-sm-6 col-lg-3">
-                          <div class="item">
-                            <div class="pic">
-                              <a href="single-video.html">
-                                <img
-                                  src="assets/images/png-bg-post-03.png"
-                                  alt="IMG"
-                                />
-                              </a>
-
-                              <div class="label">Free</div>
-                            </div>
-
-                            <h4 class="title">
-                              <a href="single-video.html">Evangelism</a>
-                            </h4>
-
-                            <div class="info">FEBRUARY 10, 2018</div>
-                          </div>
-                        </div>
-
-                        <div class="col-sm-6 col-lg-3">
-                          <div class="item">
-                            <div class="pic">
-                              <a href="single-video.html">
-                                <img
-                                  src="assets/images/png-bg-post-04.png"
-                                  alt="IMG"
-                                />
-                              </a>
-
-                              <div class="label">Free</div>
-                            </div>
-
-                            <h4 class="title">
-                              <a href="single-video.html">Prayer</a>
-                            </h4>
-
-                            <div class="info">FEBRUARY 10, 2018</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
+
+            <div
+              class="bp-element bp-element-heading align-center"
+              style={{ width: "60%", margin: "auto" }}
+            >
+              <div
+                class="content"
+                style={{
+                  textAlign: "center",
+                  margin: "auto",
+                  color: "white",
+                  marginTop: "40px",
+                  marginBottom: "40px",
+                  fontSize: "20px",
+                }}
+              >
+                Life mirror is a non-profit foundation dedicated to supporting
+                and empowering anyone interested in living a supernatural life
+                in christ as a new creature. A new life requires a new nurture
+                through God’s spirit, experiencing daily transformation and
+                growth till christ is formed.
+              </div>
+            </div>
+
             <PopularVideo />
 
             <div class="thim-ads_home-1">
@@ -249,7 +181,7 @@ const Home = () => {
             </div>
 
             <Trending />
-            <div class="thim-latest-video_home-1">
+            {/*}  <div class="thim-latest-video_home-1">
               <div class="container">
                 <div class="bp-element bp-element-st-list-videos vblog-layout-grid-1">
                   <div class="wrap-element">
@@ -524,7 +456,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>*/}
 
             <div class="thim-ads_home-1">
               <div class="container">

@@ -24,13 +24,13 @@ const PopularVideo = () => {
         <div className="bp-element bp-element-st-list-videos vblog-layout-slider-1">
           <div className="wrap-element">
             <div className="heading-post">
-              <h3 className="title">Our Resources</h3>
+              <h3 className="title">Our Services are available for free</h3>
               <a
                 href="/list-videos"
                 className="link"
                 style={{ color: "white" }}
               >
-                See all news
+                See all
               </a>
             </div>
             <div className="list-posts">
