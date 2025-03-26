@@ -482,10 +482,10 @@ const Home = () => {
                 <div class="bp-element bp-element-posts vblog-layout-slider-3">
                   <div class="wrap-element">
                     <div class="heading-post">
-                      <h3 class="title">News Feed</h3>
+                      <h3 class="title">Blog Post</h3>
 
                       <div class="description">
-                        It is a long established fact that a reader
+                        Read more articles that will transform your life
                       </div>
                     </div>
 
