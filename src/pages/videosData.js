@@ -1,7 +1,7 @@
 const videosData = [
   {
     id: 1,
-    title: "Bible Reading Plans & Studies for 2025",
+    title: "Get free spiritual resources and learning platform",
     category: "Bible",
     imgSrc: "/assets/images/post-01.jpg",
     videoUrl: "https://www.youtube.com/watch?v=NEqtQYxzQaE",
@@ -10,7 +10,7 @@ const videosData = [
   },
   {
     id: 2,
-    title: "Raising Disciples: Interview with Teresa Roberts",
+    title: "Connect with a community of like minds, and grow with others",
     category: "Discipleshp",
     imgSrc: "assets/images/post-02.jpg",
     videoUrl: "https://www.youtube.com/watch?v=NEqtQYxzQaE",
@@ -19,8 +19,7 @@ const videosData = [
   },
   {
     id: 3,
-    title:
-      "A Life Devoted to Discipleship: An Everyday Disciplemaker’s Journey",
+    title: "Get a growth coach for accountability",
     category: "Evangelism",
     imgSrc: "assets/images/post-03.jpg",
     videoUrl: "https://www.youtube.com/watch?v=NEqtQYxzQaE",
@@ -29,7 +28,7 @@ const videosData = [
   },
   {
     id: 4,
-    title: "How to Build Boldness: Sharing the Gospel in Jacksonville",
+    title: "Get a growth coach for accountability",
     category: "Prayer",
     imgSrc: "assets/images/post-04.jpg",
     videoUrl: "https://www.youtube.com/watch?v=NEqtQYxzQaE",

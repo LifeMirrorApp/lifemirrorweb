@@ -59,9 +59,9 @@ const Trending = () => {
           <div className="wrap-element">
             <div className="heading-post">
               <div className="text">
-                <h3 className="title">TESTIMONIALS</h3>
+                <h3 className="title">HEAR TESTIMONIES OF TRANSFORMATION</h3>
                 <div className="description">
-                  Some of the testimonies of the Disciple
+                  Some of the testimonies of transformations are below
                 </div>
               </div>
             </div>

@@ -458,7 +458,7 @@ const Home = () => {
               </div>
             </div>*/}
 
-            <div class="thim-ads_home-1">
+            <div class="thim-ads_home-1" style={{ marginTop: "30px" }}>
               <div class="container">
                 <div class="bp-element bp-element-call-to-action vblog-layout-2">
                   <div
@@ -469,7 +469,7 @@ const Home = () => {
 
                     <a href="javascript:;" class="content">
                       <div class="text">
-                        GAME SHOW Art line Collection Handmade
+                        Partner with us to share the goodnews of Jesus
                       </div>
                     </a>
                   </div>
