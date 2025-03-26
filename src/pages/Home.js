@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-
+import React, { useEffect, useState, useRef } from "react";
 import Header2 from "./Header2";
 import back from "./outo.png";
 import backs from "./footimg.jpg";
@@ -22,8 +21,28 @@ import Homes from "./Homes";
 import img from "./build.png";
 import PopularVideo from "./PopularVideo";
 import Trending from "./Trending";
+import gsap from "gsap";
+
 const Home = () => {
   const [showVideo, setShowVideo] = useState(false);
+  const textRef = useRef(null);
+
+  useEffect(() => {
+    const words = textRef.current.children;
+
+    gsap.fromTo(
+      words,
+      { opacity: 0, y: 20 },
+      {
+        opacity: 1,
+        y: 0,
+        stagger: 0.5, // Delay between each word animation
+        duration: 1,
+        ease: "power3.out",
+        color: () => `hsl(${Math.random() * 360}, 100%, 60%)`, // Random color for each word
+      }
+    );
+  }, []);
 
   return (
     <>
@@ -50,6 +69,23 @@ const Home = () => {
                             }}
                           >
                             <div class="text">
+                              <h3
+                                ref={textRef}
+                                style={{
+                                  fontFamily: "anton",
+                                  fontSize: "50px",
+                                  gap: "10px",
+                                }}
+                                class="title"
+                              >
+                                {["Welcome", "to", "Life", "Mirror"].map(
+                                  (word, index) => (
+                                    <span key={index} className="word">
+                                      {word}
+                                    </span>
+                                  )
+                                )}
+                              </h3>
                               <h4 class="title">
                                 <a href="single-video.html">
                                   Experience Joy, Peace and Power in
