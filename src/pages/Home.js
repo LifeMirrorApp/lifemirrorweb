@@ -48,13 +48,6 @@ const Home = () => {
 
                             <div class="overlay"></div>
 
-                            <div class="meta-info">
-                              <div class="imdb">
-                                <span class="value">5</span>IMDb
-                              </div>
-
-                              <div class="label">HDRip</div>
-                            </div>
                             <a
                               href="https://www.youtube.com/watch?v=hNQFjqDvPhA&amp;feature=youtu.be"
                               class="btn-play popup-youtube"
@@ -66,7 +59,7 @@ const Home = () => {
                           <div class="text">
                             <h4 class="title">
                               <a href="single-video.html">
-                                Try Our NEW Everyday Discipleship App!
+                                Try Our NEW Life Mirror Discipleship App!
                               </a>
                             </h4>
 
