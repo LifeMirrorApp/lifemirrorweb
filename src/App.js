@@ -8,6 +8,8 @@ import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
 import SingleShop from "./pages/SingleShop";
 import Submit from "./pages/Submit";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
           <Route path="/shop" element={<Shop />} />
           <Route path="/single-shop" element={<SingleShop />} />
           <Route path="/submit" element={<Submit />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </BrowserRouter>
     </>
