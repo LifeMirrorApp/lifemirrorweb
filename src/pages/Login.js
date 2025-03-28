@@ -131,16 +131,6 @@ const Login = () => {
 
                       <div class="inner-login">
                         <h3 class="title">
-                          <span>
-                            <a
-                              href="#register"
-                              class="display-box"
-                              data-display=".box-register"
-                            >
-                              Registration
-                            </a>
-                          </span>
-
                           <span class="current-title">Login</span>
                         </h3>
 
@@ -178,19 +168,22 @@ const Login = () => {
                               </p>
 
                               <p class="button-submit">
-                                <input
-                                  type="submit"
-                                  name="wp-submit-register"
+                                <a
+                                  href="/admin"
                                   class="button button-primary button-large"
-                                  value="Register"
-                                  autocomplete="off"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="redirect_to"
-                                  value=""
-                                  autocomplete="off"
-                                />
+                                  style={{
+                                    display: "inline-block",
+                                    padding: "10px 20px",
+                                    backgroundColor: "purple",
+                                    width: "100%",
+                                    textAlign: "center",
+                                    fontSize: "15px",
+                                    fontWeight: "600",
+                                    color: "white",
+                                  }}
+                                >
+                                  Login
+                                </a>
                               </p>
 
                               <p class="link-bottom">
@@ -309,7 +302,7 @@ const Login = () => {
                                 {" "}
                                 Are you a member?
                                 <a
-                                  href="#login"
+                                  href="/admin"
                                   class="display-box"
                                   data-display=".box-login"
                                 >

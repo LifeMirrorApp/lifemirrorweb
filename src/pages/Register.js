@@ -67,7 +67,13 @@ const Register = () => {
 
                         <div class="form-row">
                           <div class="wrap-form">
-                            <form id="registerform">
+                            <form
+                              id="registerform"
+                              onSubmit={(e) => {
+                                e.preventDefault();
+                                window.location.href = "/login";
+                              }}
+                            >
                               <p class="login-username">
                                 <input
                                   type="text"
@@ -168,19 +174,22 @@ const Register = () => {
                               </p>
 
                               <p class="button-submit">
-                                <input
-                                  type="submit"
-                                  name="wp-submit-register"
+                                <a
+                                  href="/login"
                                   class="button button-primary button-large"
-                                  value="Register"
-                                  autocomplete="off"
-                                />
-                                <input
-                                  type="hidden"
-                                  name="redirect_to"
-                                  value=""
-                                  autocomplete="off"
-                                />
+                                  style={{
+                                    display: "inline-block",
+                                    padding: "10px 20px",
+                                    backgroundColor: "purple",
+                                    width: "100%",
+                                    textAlign: "center",
+                                    fontSize: "15px",
+                                    fontWeight: "600",
+                                    color: "white",
+                                  }}
+                                >
+                                  Register
+                                </a>
                               </p>
 
                               <p class="link-bottom">
@@ -247,11 +256,7 @@ const Register = () => {
                           </h3>
 
                           <div class="form-row">
-                            <form
-                              name="lostpasswordform"
-                              id="lostpasswordform"
-                              method="post"
-                            >
+                            <form>
                               <p class="description">
                                 {" "}
                                 Please enter your username or email address. You
@@ -285,12 +290,12 @@ const Register = () => {
                                 {" "}
                                 Are you a member?
                                 <a
-                                  href="#login"
+                                  href="/login"
                                   class="display-box"
                                   data-display=".box-login"
                                 >
                                   {" "}
-                                  Sign in now{" "}
+                                  Sign up now{" "}
                                 </a>
                               </p>
                             </form>
