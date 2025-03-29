@@ -47,7 +47,7 @@ const SideNav = () => {
                       } ${isActive("/vision") ? "active-menu" : ""}`.trim()}
                       style={{
                         backgroundColor: isActive("/vision")
-                          ? "#dc3545"
+                          ? "#800080"
                           : "transparent",
                         borderRadius: "5px",
                         padding: "10px",
@@ -79,7 +79,7 @@ const SideNav = () => {
                       } ${isActive("/billing") ? "active-menu" : ""}`.trim()}
                       style={{
                         backgroundColor: isActive("/billing")
-                          ? "#dc3545"
+                          ? "#800080"
                           : "transparent",
                         borderRadius: "5px",
                         padding: "10px",
@@ -111,7 +111,7 @@ const SideNav = () => {
                       } ${isActive("/community") ? "active-menu" : ""}`.trim()}
                       style={{
                         backgroundColor: isActive("/community")
-                          ? "#dc3545"
+                          ? "#800080"
                           : "transparent",
                         borderRadius: "5px",
                         padding: "10px",
@@ -145,7 +145,7 @@ const SideNav = () => {
                       } ${isActive("/settings") ? "active-menu" : ""}`.trim()}
                       style={{
                         backgroundColor: isActive("/settings")
-                          ? "#dc3545"
+                          ? "#800080"
                           : "transparent",
                         borderRadius: "5px",
                         padding: "10px",

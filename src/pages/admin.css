@@ -14,7 +14,7 @@
 }
 
 .add-admin-btn {
-  background-color: #dc3545; /* Primary button color */
+  background-color: #800080; /* Primary button color */
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -27,7 +27,7 @@
 }
 
 .delete-icon {
-  color: #dc3545; /* Delete icon color */
+  color: #800080; /* Delete icon color */
   cursor: pointer;
 }
 #sales_charts {
