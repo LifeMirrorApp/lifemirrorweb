@@ -41,12 +41,12 @@ const SideNav = () => {
                 <ul>
                   <li className="submenu">
                     <a
-                      href="/vision"
+                      href="/home"
                       className={`${
                         openSubmenus.has(0) ? "subdrop active" : ""
-                      } ${isActive("/vision") ? "active-menu" : ""}`.trim()}
+                      } ${isActive("/home") ? "active-menu" : ""}`.trim()}
                       style={{
-                        backgroundColor: isActive("/vision")
+                        backgroundColor: isActive("/home")
                           ? "#800080"
                           : "transparent",
                         borderRadius: "5px",
@@ -55,12 +55,12 @@ const SideNav = () => {
                     >
                       <FiHome
                         size={20}
-                        color={isActive("/vision") ? "white" : "black"}
+                        color={isActive("/home") ? "white" : "black"}
                       />
                       <span
                         style={{
                           fontSize: "18px",
-                          color: isActive("/vision") ? "white" : "black",
+                          color: isActive("/home") ? "white" : "black",
                         }}
                       >
                         Dashboard
@@ -185,7 +185,7 @@ const SideNav = () => {
       <div className="bottom-nav mobile-only">
         <ul className="nav">
           <li className="nav-item">
-            <a href="/vision">
+            <a href="/home">
               <FiHome />
               <span>Home</span>
             </a>
