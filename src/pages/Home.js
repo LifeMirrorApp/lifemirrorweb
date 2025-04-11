@@ -176,7 +176,7 @@ const Home = () => {
             <How />
             <PopularVideo />
 
-            <div class="thim-ads_home-1">
+            {/*<div class="thim-ads_home-1">
               <div class="container">
                 <div class="bp-element bp-element-call-to-action vblog-layout-1">
                   <div
@@ -197,7 +197,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>*/}
 
             <Trending />
             {/*}  <div class="thim-latest-video_home-1">
