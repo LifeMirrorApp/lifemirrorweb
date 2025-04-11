@@ -10051,7 +10051,8 @@ form#lostpasswordform .description {
 }
 
 .site-header.layout-1 .header-container {
-  background: #ffd700;
+  /* background: #ffd700; */
+  background: #fff;
 }
 
 .site-header.layout-1 .header-container .top-header {
@@ -11300,7 +11301,8 @@ form#lostpasswordform .description {
 
 @media (max-width: 767px) {
   .responsive .site-header.layout-1 .header-container {
-    background-color: #ffd700;
+    /* background-color: #ffd700; */
+    background-color: #fff;
   }
 
   .responsive .site-header.layout-1 .header-container .top-header {
