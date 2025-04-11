@@ -22,6 +22,7 @@ import img from "./build.png";
 import PopularVideo from "./PopularVideo";
 import Trending from "./Trending";
 import gsap from "gsap";
+import How from "./How";
 
 const Home = () => {
   const [showVideo, setShowVideo] = useState(false);
@@ -172,29 +173,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div
-              class="bp-element bp-element-heading align-center"
-              style={{ width: "60%", margin: "auto" }}
-            >
-              <div
-                class="content"
-                style={{
-                  textAlign: "center",
-                  margin: "auto",
-                  color: "white",
-                  marginTop: "40px",
-                  marginBottom: "40px",
-                  fontSize: "20px",
-                }}
-              >
-                Life mirror is a non-profit foundation dedicated to supporting
-                and empowering anyone interested in living a supernatural life
-                in christ as a new creature. A new life requires a new nurture
-                through God’s spirit, experiencing daily transformation and
-                growth till christ is formed.
-              </div>
-            </div>
-
+            <How />
             <PopularVideo />
 
             <div class="thim-ads_home-1">
