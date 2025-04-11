@@ -60,9 +60,7 @@ const Trending = () => {
             <div className="heading-post">
               <div className="text">
                 <h3 className="title">HEAR TESTIMONIES OF TRANSFORMATION</h3>
-                <div className="description">
-                  Some of the testimonies of transformations are below
-                </div>
+                <div className="description">What Our Users Are Saying</div>
               </div>
             </div>
 
