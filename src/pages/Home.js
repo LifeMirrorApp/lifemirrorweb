@@ -78,27 +78,31 @@ const Home = () => {
                                 }}
                                 class="title"
                               >
-                                {["Welcome", "to", "Life", "Mirror"].map(
-                                  (word, index) => (
-                                    <span key={index} className="word">
-                                      {word}
-                                    </span>
-                                  )
-                                )}
+                                {[
+                                  "LifeMirror - ",
+                                  "Reflect.",
+                                  "Renew.",
+                                  "Rejoice.",
+                                ].map((word, index) => (
+                                  <span key={index} className="word">
+                                    {word}
+                                  </span>
+                                ))}
                               </h3>
                               <h4 class="title">
                                 <a href="single-video.html">
-                                  Experience Joy, Peace and Power in
-                                  Transfornation
+                                  A Biblical Meditation App for Mental Health &
+                                  Spiritual Growth
                                 </a>
                               </h4>
 
                               <div class="description">
                                 <p>
                                   {" "}
-                                  Life Mirror is here to support you and guide
-                                  your daily transformation to be spiritually
-                                  empowered in Christ
+                                  Be Transformed by the Renewing of Your Mind.
+                                  <br></br>
+                                  Discover peace, healing, and clarity through
+                                  guided biblical meditation
                                 </p>
                               </div>
 
@@ -106,7 +110,7 @@ const Home = () => {
                                 href="single-video.html"
                                 class="btn-readmore btn-normal shape-round"
                               >
-                                Start your Journey
+                                Get Started for Free
                               </a>
                             </div>
                           </div>

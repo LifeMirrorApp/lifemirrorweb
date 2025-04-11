@@ -139,7 +139,7 @@ import { useEffect } from "react";
 
 const Login = () => {
   useEffect(() => {
-    window.location.href = "https://lifemirrordashboard.vercel.app/login"; // Redirect to external login
+    window.location.href = "http://localhost:3002/login"; // Redirect to external login
   }, []);
 
   return null; // No need to render anything since we're redirecting
